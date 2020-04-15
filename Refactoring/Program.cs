@@ -11,7 +11,7 @@ namespace Refactoring
         static void Main(string[] args)
         {
             Console.WriteLine("Здравствуйте вас приветствует математическая программа \r\n" +
-                                "пажалуйста введите число. ");
+                                "(для выхода нажмите - q) \r\n пажалуйста введите число. ");
 
             String inputNumberString = Console.ReadLine();
             Int32 inputNumber;
